@@ -1,0 +1,84 @@
+nav {
+  height: 90px;
+  width: 100%;
+  background-color: #0dcaf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+nav h1 {
+  font-size: 48px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  color: yellow;
+  letter-spacing: 4px;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+.mainDiv {
+  height: max-content;
+  background-color: #0d6efd;
+  width: max-content;
+  padding: 20px 10px;
+  border-radius: 10px;
+  width: 33.33%;
+}
+.inputDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.inputDiv input {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 32px;
+}
+.inputDiv button {
+  border-radius: 5px;
+  background-color: rgba(79, 205, 79, 0.87);
+  padding: 8px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.inputDiv input:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 1px white;
+}
+.inputDiv button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 1px rgba(79, 205, 79, 0.87);
+}
+.mainDiv ul li {
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+ul li button {
+  border-radius: 5px;
+  background-color: #dc3545;
+  padding: 6px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ul li button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 1px #dc3545;
+}
+
+ul li {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: white;
+}
